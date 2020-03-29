@@ -8,10 +8,11 @@
     <title>Login</title>
 </head>
 <body>
-<h3>Вход в систему</h3>
+<h3>Введите данные для входа в систему</h3>
 <form action="${pageContext.request.contextPath}/login" method="post">
     <label for="login">login</label>
     <input id="login" type="text" name="login"> <br/>
+
 
     <label for="password">password</label>
     <input id="password" type="password" name="password"><br/>

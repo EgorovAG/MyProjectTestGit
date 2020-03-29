@@ -9,6 +9,8 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <name>dao</name>
+
     <parent>
         <artifactId>myProgect1</artifactId>
         <groupId>com.talwin</groupId>
@@ -22,9 +24,6 @@
             <artifactId>model</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
-
-
     </dependencies>
 
 

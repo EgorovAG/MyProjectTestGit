@@ -1,4 +1,3 @@
 package com.talwin;
 
-public enum Role { User, Admin
-}
+public enum Role { User, Admin }

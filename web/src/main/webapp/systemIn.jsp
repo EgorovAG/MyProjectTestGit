@@ -1,19 +1,18 @@
-<%--
-  Created by IntelliJ IDEA.
-  serv.com.talwin.Student: Talwin
-  Date: 23.03.2020
-  Time: 15:11
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <html>
 <head>
     <title>qwe</title>
 </head>
 <body>
-Вы вошли в систему
-<form action="perehod.jsp">
-<input type="submit" value="нажмите для перхода на другую страницу">
+<form action="${pageContext.request.contextPath}/summa" method="get" >
+<h1 style="text-align: center"><c:out value="Вы вошли в программу для рассчета зарплаты"/></h1>
+
+
+
+<input style="text-align: center" type="submit" value="Рассчитать заработную плату">
+
 </form>
 
 
