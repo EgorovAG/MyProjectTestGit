@@ -40,7 +40,8 @@ public class UserDao implements IDao {
         boolean b = false;
         Iterator<User> iterator = listUser.iterator();
         while(iterator.hasNext()){
-            if (iterator.next().getLogin().equals(user.getLogin())) {
+            if (iterator.next().getLogin().equals(user.getLogin()) &&
+                    iterator.next().getPassword().equals(user.getPassword())) {
                 b=true;
             } else {
                 b=false;
@@ -53,8 +54,7 @@ public class UserDao implements IDao {
         boolean b = false;
         Iterator<User> iterator = listUser.iterator();
         while(iterator.hasNext()){
-            if (iterator.next().getLogin().equals(user.getLogin()) &&
-                    iterator.next().getPassword().equals(user.getPassword())) {
+            if (iterator.next().getLogin().equals(user.getLogin())) {
                 b=true;
             } else {
                 b=false;

@@ -27,6 +27,8 @@
     <input type="submit" value="войти">
 </form>
 
+<a href="${pageContext.request.contextPath}/homePage.jsp">Logout</a>
+
 
 
 </body>

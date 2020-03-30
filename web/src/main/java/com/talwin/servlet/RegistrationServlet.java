@@ -32,8 +32,10 @@ public class RegistrationServlet extends HttpServlet {
             req.getRequestDispatcher("login.jsp").forward(req,resp);
         } else  {
             iService.saveUser(user);
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("/registrationGood.jsp");
-            requestDispatcher.forward(req,resp);
+//            RequestDispatcher requestDispatcher = req.getRequestDispatcher("/registrationGood.jsp");
+//            requestDispatcher.forward(req,resp);
+            resp.sendRedirect("/project/successRegistration");
+
         }
     }
 }

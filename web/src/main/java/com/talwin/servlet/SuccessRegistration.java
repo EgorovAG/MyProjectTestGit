@@ -1,6 +1,5 @@
 package com.talwin.servlet;
 
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -8,15 +7,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/logout")
-public class LogoutServlet extends HttpServlet {
+
+@WebServlet("/successRegistration")
+public class SuccessRegistration extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        req.getSession().invalidate();
-        req.getRequestDispatcher("/login").forward(req,resp);
 
-
+//        resp.getWriter().write("You are registered");
+        req.getRequestDispatcher("/successRegistration.jsp").include(req,resp);
+        resp.setHeader("refresh","1;URL=http://localhost:8080/project/systemIn.jsp");
     }
-
 }
+
+

@@ -36,8 +36,8 @@ public class LoginServlet extends HttpServlet {
         User user = new User(login, password);
 
         if (!iService.ServiceValidateL(user)){
-            req.getSession().setAttribute("authUser", user);
-            req.setAttribute("error", "Вы ввели неверное имя или пароль");
+//            req.getSession().setAttribute("authUser", user);
+            req.setAttribute("error", "Вы ввели неверное имя или пароль либо Вам необходимо зарегистрироваться");
             req.getRequestDispatcher("login.jsp").forward(req,resp);
         } else  {
             resp.sendRedirect("systemIn.jsp");
