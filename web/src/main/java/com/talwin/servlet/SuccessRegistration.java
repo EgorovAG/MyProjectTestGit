@@ -7,14 +7,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-
 @WebServlet("/successRegistration")
 public class SuccessRegistration extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-//        resp.getWriter().write("You are registered");
         req.getRequestDispatcher("/successRegistration.jsp").include(req,resp);
         resp.setHeader("refresh","1;URL=http://localhost:8080/project/systemIn.jsp");
     }

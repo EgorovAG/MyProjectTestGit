@@ -22,14 +22,10 @@
     <label for="prfsz"> Отчисления в профсоюз (1%)</label> <br/>
     <input id="prfsz" type="text" name="prfsz"> <br/> <br/>
 
-
-
     <input type="submit" value="войти">
 </form>
 
 <a href="${pageContext.request.contextPath}/homePage.jsp">Home</a>
-
-
 
 </body>
 </html>

@@ -4,7 +4,6 @@ import org.junit.jupiter.api.*;
 import java.util.ArrayList;
 import java.util.List;
 
-
 class UserDaoTest {
     private IDao iDao = UserDao.getInstance();
 

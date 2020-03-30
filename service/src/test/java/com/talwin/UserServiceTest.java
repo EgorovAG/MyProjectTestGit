@@ -8,13 +8,11 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-
 class UserServiceTest {
     private IService iService= UserService.getInstance();
 
     private User user = new User("qwe","asd");
     private List<User> listUser = new ArrayList<>();
-
 
     @BeforeEach
     void addUser(){
@@ -26,7 +24,6 @@ class UserServiceTest {
     void deleteUser(){
         listUser=null;
     }
-
 
     @Test
     void getUserList() {

@@ -17,7 +17,6 @@ public class SummaServlet extends HttpServlet {
 
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("/sum.jsp");
         requestDispatcher.forward(req,resp);
-
     }
 
     @Override

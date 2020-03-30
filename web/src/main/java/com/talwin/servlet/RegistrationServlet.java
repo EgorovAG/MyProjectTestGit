@@ -4,7 +4,6 @@ import com.talwin.IService;
 import com.talwin.User;
 import com.talwin.UserService;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -26,15 +25,11 @@ public class RegistrationServlet extends HttpServlet {
         User user = new User(login,password);
 
         if (iService.ServiceValidateR(user)){
-//            req.getSession().setAttribute("authUser", user);
             req.setAttribute("error", "пользователь с таким именем существует введите другое имя");
             req.getRequestDispatcher("login.jsp").forward(req,resp);
         } else  {
             iService.saveUser(user);
-//            RequestDispatcher requestDispatcher = req.getRequestDispatcher("/registrationGood.jsp");
-//            requestDispatcher.forward(req,resp);
             resp.sendRedirect("/project/successRegistration");
-
         }
     }
 }

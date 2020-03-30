@@ -24,19 +24,15 @@ public class Summa {
     public String getSum() {
         return sum;
     }
-
     public String getFszn() {
         return fszn;
     }
-
     public String getBgs() {
         return bgs;
     }
-
     public String getPdn() {
         return pdn;
     }
-
     public String getPrfsz() {
         return prfsz;
     }

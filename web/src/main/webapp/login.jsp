@@ -13,20 +13,13 @@
     <label for="login">login</label>
     <input id="login" type="text" name="login"> <br/>
 
-
     <label for="password">password</label>
     <input id="password" type="password" name="password"><br/>
 
     <input type="submit" value="войти">
 </form>
 
-
-
 <a href="${pageContext.request.contextPath}/registration.jsp">РЕГИСТРАЦИЯ</a>
-
-
-
-
 
 <p style="color: red">${error}</p>
 

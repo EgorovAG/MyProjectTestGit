@@ -13,9 +13,5 @@
     <a href="${pageContext.request.contextPath}/homePage.jsp">Home</a>
 
 </form>
-
-
-
-
 </body>
 </html>

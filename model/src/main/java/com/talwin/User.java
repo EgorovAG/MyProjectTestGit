@@ -5,14 +5,10 @@ import java.util.Objects;
 public class User {
     private String login;
     private String password;
-//    private double id;
-//    private Role role;
 
     public User(String login, String password) {
         this.login = login;
         this.password = password;
-//        this.id = id;
-//        this.role = role;
     }
 
     public String getLogin() {
@@ -30,23 +26,6 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
-
-//    public double getId() {
-//        return id;
-//    }
-//
-//    public void setId(double id) {
-//        this.id = id;
-//    }
-//
-//    public Role getRole() {
-//        return role;
-//    }
-//
-//    public void setRole(Role role) {
-//        this.role = role;
-//    }
-
 
     @Override
     public boolean equals(Object o) {

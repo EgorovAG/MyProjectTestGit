@@ -17,8 +17,5 @@
     <input type="submit" value="Перейти">
 </form>
 
-
-
-
 </body>
 </html>
