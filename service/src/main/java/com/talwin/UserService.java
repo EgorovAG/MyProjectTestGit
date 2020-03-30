@@ -34,7 +34,6 @@ public class UserService implements IService {
     @Override
     public boolean ServiceValidateL(User user) {
         if (!iDao.IDaoValidateL(user)) {
-//            listUser.add(user);
             return false;
         } else {
             return true;
@@ -44,7 +43,6 @@ public class UserService implements IService {
     @Override
     public boolean ServiceValidateR(User user) {
         if (!iDao.IDaoValidateR(user)) {
-//            listUser.add(user);
             return false;
         } else {
             return true;

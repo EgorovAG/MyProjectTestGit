@@ -17,7 +17,7 @@
 <h4><c:out value="Отчисления в профсоюз ${sum_prfsz}"/></h4>
 <h4><c:out value="Итого зарплата ${sum1}"/></h4>
 
-<a href="${pageContext.request.contextPath}/homePage.jsp">Logout</a>
+<a href="${pageContext.request.contextPath}/homePage.jsp">Home</a>
 
 
 

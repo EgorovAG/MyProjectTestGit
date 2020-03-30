@@ -22,6 +22,7 @@
 </form>
 
 <p style="color: red">${error}</p>
+<a href="${pageContext.request.contextPath}/homePage.jsp">Home</a>
 
 
 
