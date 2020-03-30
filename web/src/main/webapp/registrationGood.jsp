@@ -11,9 +11,9 @@
     <title>RegistrationGood</title>
 </head>
 <body>
-<h3>Вы зарегистрированы</h3>
-<form action="${pageContext.request.contextPath}/login.jsp">
-    <h3>Ввести данные пользователя</h3>
+<h3 style="text-align: center">Вы успешно зарегистрированы на нашем ресурсе</h3>
+<form action="${pageContext.request.contextPath}/systemIn.jsp">
+    <h4>расчитать зарплату</h4>
     <input type="submit" value="Перейти">
 </form>
 

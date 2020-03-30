@@ -20,11 +20,11 @@
     <input type="submit" value="войти">
 </form>
 
-<form action="${pageContext.request.contextPath}/login" method="post">
-    <input type="submit" value="РЕГИСТРАЦИЯ">
-</form>
+<%--<form action="${pageContext.request.contextPath}/login" method="post">--%>
+<%--    <input type="submit" value="РЕГИСТРАЦИЯ">--%>
+<%--</form>--%>
 
-<%--<a href="/logout">РЕГИСТРАЦИЯ</a>--%>
+<a href="${pageContext.request.contextPath}/registration.jsp">РЕГИСТРАЦИЯ</a>
 
 
 
