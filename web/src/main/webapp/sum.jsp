@@ -13,7 +13,7 @@
     <label for="fszn"> ФСЗН (34%+1%)</label> <br/>
     <input id="fszn" type="text" name="fszn"> <br/> <br/>
 
-    <label for="bgs"> Белгосстрах(0.6%)</label> <br/>
+    <label for="bgs"> Белгосстрах  (0.6%)</label> <br/>
     <input id="bgs" type="text" name="bgs"> <br/> <br/>
 
     <label for="pdn"> Подоходный налог(13%)</label> <br/>
