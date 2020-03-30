@@ -16,7 +16,7 @@
     <label for="bgs"> Белгосстрах(0.6%)</label> <br/>
     <input id="bgs" type="text" name="bgs"> <br/> <br/>
 
-    <label for="pdn"> pdn(13%)</label> <br/>
+    <label for="pdn"> Подоходный налог(13%)</label> <br/>
     <input id="pdn" type="text" name="pdn"> <br/> <br/>
 
     <label for="prfsz"> prfsz(1%)</label> <br/>
