@@ -7,7 +7,7 @@
 <h3>Введите сумму заработной платы без учета налогов </h3>
 <form action="${pageContext.request.contextPath}/summa" method="post" >
 
-    <label for="sum"> summa</label> <br/>
+    <label for="sum"> Сумма </label> <br/>
     <input id="sum" type="text" name="sum"> <br/> <br/>
 
     <label for="fszn"> fszn (34%+1%)</label> <br/>
