@@ -10,6 +10,7 @@ import java.util.List;
 
 
 class UserServiceTest {
+
     private IService iService= UserService.getInstance();
 
     private User user = new User("qwe","asd");
@@ -26,7 +27,6 @@ class UserServiceTest {
     void deleteUser(){
         listUser=null;
     }
-
 
     @Test
     void getUserList() {
