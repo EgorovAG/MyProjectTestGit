@@ -14,8 +14,6 @@ import java.io.IOException;
 public class SummaServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-//        HttpSession session = req.getSession();
-//        req.getSession().invalidate();
 
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("/sum.jsp");
         requestDispatcher.forward(req,resp);
@@ -32,7 +30,6 @@ public class SummaServlet extends HttpServlet {
         String prfsz = req.getParameter("prfsz");
 
         Summa summa = new Summa(sum,fszn,bgs,pdn,prfsz);
-
 
         req.getSession().setAttribute("sum1", summa.getSum());
         req.getSession().setAttribute("sum_fszn", summa.getFszn());
