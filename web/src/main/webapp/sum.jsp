@@ -10,7 +10,7 @@
     <label for="sum"> Сумма </label> <br/>
     <input id="sum" type="text" name="sum"> <br/> <br/>
 
-    <label for="fszn"> fszn (34%+1%)</label> <br/>
+    <label for="fszn"> ФСЗН (34%+1%)</label> <br/>
     <input id="fszn" type="text" name="fszn"> <br/> <br/>
 
     <label for="bgs"> bgs(0.6%)</label> <br/>
