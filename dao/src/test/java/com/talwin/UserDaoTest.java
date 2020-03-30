@@ -6,6 +6,7 @@ import java.util.List;
 
 
 class UserDaoTest {
+
     private IDao iDao = UserDao.getInstance();
 
     private List<User> list = new ArrayList<>();
