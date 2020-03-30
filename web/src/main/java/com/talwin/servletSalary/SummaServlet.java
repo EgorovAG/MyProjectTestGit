@@ -1,6 +1,6 @@
 package com.talwin.servletSalary;
 
-import com.talwin.calculator.Summa;
+import com.talwin.salary.Summa;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

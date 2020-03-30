@@ -1,4 +1,4 @@
-package com.talwin.calculator;
+package com.talwin.salary;
 
 public class Summa {
     private String sum;

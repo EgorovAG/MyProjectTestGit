@@ -7,4 +7,9 @@ public interface IService {
     void saveUser(User user);
 
     List<User> getUserList();
+
+    boolean ServiceValidateL(User user);
+    boolean ServiceValidateR(User user);
+
+
 }

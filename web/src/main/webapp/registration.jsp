@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<h3>Registration user</h3>
+<h3>Регистрация пользователя</h3>
 <form action="${pageContext.request.contextPath}/registration" method="post">
     <label for="login">login</label>
     <input id="login" type="text" name="login"> <br/>
@@ -18,7 +18,10 @@
     <label for="password">password</label>
     <input id="password" type="password" name="password"><br/>
     <input type="submit" value="войти">
+
 </form>
+
+<p style="color: red">${error}</p>
 
 </body>
 </html>

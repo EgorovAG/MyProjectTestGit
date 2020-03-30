@@ -4,7 +4,13 @@ import java.util.List;
 
 public interface IDao {
 
-    String saveUser (User user);
+    void saveUser (User user);
 
     List<User> getUser();
+
+    boolean IDaoValidateL(User user);
+
+    boolean IDaoValidateR(User user);
+
+
 }

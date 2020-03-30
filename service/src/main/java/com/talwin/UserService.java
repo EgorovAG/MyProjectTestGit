@@ -30,4 +30,25 @@ public class UserService implements IService {
     public List<User> getUserList() {
         return iDao.getUser();
     }
+
+    @Override
+    public boolean ServiceValidateL(User user) {
+        if (!Validate.validate(user)) {
+//            listUser.add(user);
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    @Override
+    public boolean ServiceValidateR(User user) {
+        if (!Validate.validate(user)) {
+//            listUser.add(user);
+            return false;
+        } else {
+            return true;
+        }
+    }
+
 }
