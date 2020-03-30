@@ -2,7 +2,6 @@ package com.talwin.servlet;
 
 import com.talwin.IService;
 import com.talwin.User;
-import com.talwin.ListUser;
 import com.talwin.UserService;
 
 import javax.servlet.ServletException;
