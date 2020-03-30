@@ -19,7 +19,7 @@
     <label for="pdn"> Подоходный налог(13%)</label> <br/>
     <input id="pdn" type="text" name="pdn"> <br/> <br/>
 
-    <label for="prfsz"> Отчисления в профсоюз(1%)</label> <br/>
+    <label for="prfsz"> Профвзносы(1%)</label> <br/>
     <input id="prfsz" type="text" name="prfsz"> <br/> <br/>
 
 
